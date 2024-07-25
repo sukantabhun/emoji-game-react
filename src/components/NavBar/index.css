@@ -1,0 +1,25 @@
+.nav-element {
+  background-color: #ffffff33;
+  opacity: 200;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  color: white;
+  padding: 15px;
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  align-items: center;
+  font-size: larger;
+}
+.score-container {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  align-items: center;
+  column-gap: 30px;
+  font-size: larger;
+}

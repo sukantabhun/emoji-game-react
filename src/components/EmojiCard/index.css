@@ -1,0 +1,36 @@
+.emoji-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff33;
+  border-color: #ffffff30;
+  border-radius: 12px;
+  border-style: solid;
+  height: 183px;
+  width: 183px;
+  margin-bottom: 15px;
+  outline: none;
+  cursor: pointer;
+}
+.elements {
+  border: none;
+  background-color: transparent;
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .emoji-card {
+    background-color: #ffffff33;
+    border-color: #ffffff30;
+    border-radius: 12px;
+    height: 170px;
+    width: 170px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .emoji-card {
+    background-color: #ffffff33;
+    border-color: #ffffff30;
+    border-radius: 12px;
+    width: 176px;
+    height: 176px;
+  }
+}
